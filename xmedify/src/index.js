@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Home from "./Pages/Home/Home";
-import MyBookings from "./MyBookings/MyBookings";
-import Search from "./Search/Search";
+import MyBookings from "./Pages/MyBookings/MyBookings";
+import Search from "./Pages/Search/Search";
 import { createTheme, ThemeProvider} from "@mui/material";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -12,10 +12,10 @@ const myroutes = createBrowserRouter([{
   path: "/",
   element: <App />,
    children: [
-    //{
-//     path: "search",
-//     element: <Search />,
-//   },
+    {
+    path: "search",
+    element: <Search />,
+  },
 //   {
 //     path: "mybookings",
 //     element: <MyBookings />,

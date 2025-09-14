@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 function HeroSlider() {
   return (
-    <Box sx={{ background: "linear-gradient(#E7F0FF, #E8F1FF)", padding: "1% 6%"}}>    
+    <Box sx={{ background: "linear-gradient(#E7F0FF, #E8F1FF)", }}>    
         
         <Stack
           direction={{ xs: "column", md: "row" }}
