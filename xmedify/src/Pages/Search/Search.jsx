@@ -7,8 +7,8 @@ import HospitalCard from "../../Components/HospitalCard/HospitalCard";
 import SearchHospitalForm from "../../Components/SearchHospitalForm/SearchHospitalForm";
 import icon from "../../assets/tick.png";
 import cta from "../../assets/cta.png";
-// import BookingModal from "../../components/BookingModal/BookingModal";
-// import AutohideSnackbar from "../../components/AutohideSnackbar/AutohideSnackbar";
+import BookingModal from "../../Components/BookingModal/BookingModal";
+import AutohideSnackbar from "../../Components/AutohideSnackbar/AutohideSnackbar";
 
 function Search() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -149,7 +149,7 @@ function Search() {
           </Stack>
         </Container>
 
-        {/* <BookingModal
+         <BookingModal
           open={isModalOpen}
           setOpen={setIsModalOpen}
           bookingDetails={bookingDetails}
@@ -160,8 +160,9 @@ function Search() {
           open={showBookingSuccess}
           setOpen={setShowBookingSuccess}
           message="Booking Successful"
-        /> */}
-      </Box>
+        /> 
+        
+        </Box>
     </>
   );
 }

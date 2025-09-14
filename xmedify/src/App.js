@@ -10,8 +10,7 @@ function App() {
   return (
     <>
     <CssBaseline />
-    <Outlet />
-    {/* <NavBar />*/}
+    <Outlet />    
     <DownloadApp /> 
     <Footer />
     </>

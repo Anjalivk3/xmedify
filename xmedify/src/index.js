@@ -16,10 +16,10 @@ const myroutes = createBrowserRouter([{
     path: "search",
     element: <Search />,
   },
-//   {
-//     path: "mybookings",
-//     element: <MyBookings />,
-//   },
+  {
+    path: "mybookings",
+    element: <MyBookings />,
+  },
   {
     path: "/",
     element: <Home />,
