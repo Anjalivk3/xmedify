@@ -33,7 +33,7 @@ function SearchBar({ list, filterList }) {
           value={inputText}
           onChange={(e) => setInputText(e.target.value)}
         />
-        <Button
+        <Button id="searchBtn"
           type="submit"
           variant="contained"
           size="large"
