@@ -9,7 +9,7 @@ import img4 from "../../../assets/ankur.jpg";
 import img5 from "../../../assets/ahmad-stevens.jpg";
 import SpecialistCard from "./SpecialistCard";
 import { Autoplay, Pagination } from "swiper/modules";
-import styles from "./Specialists.module.css";
+
 
 
 function Specialists() {
